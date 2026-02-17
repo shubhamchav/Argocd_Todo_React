@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: <YOUR_GIT_REPO_URL>
-    targetRevision: main
-    path: frontend/k8s
+    repoURL: https://github.com/shubhamchav/Argocd_Todo_React.git
+    targetRevision: master
+    path: k8s/
   destination:
     server: https://kubernetes.default.svc
     namespace: default

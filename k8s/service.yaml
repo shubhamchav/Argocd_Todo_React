@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: todo-frontend
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: todo-frontend
   ports:

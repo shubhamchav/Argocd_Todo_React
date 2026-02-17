@@ -21,5 +21,5 @@ spec:
             - containerPort: 80
           env:
             - name: REACT_APP_API_URL
-              value: http://todo-backend:8080/api/todos
+              value: /api/todos
 

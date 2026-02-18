@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: todo-frontend
-          image: 543816070942.dkr.ecr.us-east-1.amazonaws.com/shubham_argocd_todo_react:4e61638229fe507d0c5228e473c1429fed4bac4c
+          image: "${ECR_REGISTRY}/${ECR_REPOSITORY}:${IMAGE_TAG}"
           ports:
             - containerPort: 80
           env:
